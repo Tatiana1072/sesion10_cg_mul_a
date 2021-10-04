@@ -48,14 +48,10 @@ function init() {
     Cubo.push(cubo(4, 4, 4, 0xFF0000, 'Phong', false));
 
 
-    /*Cubo[0].position.set(0, 0, 0);
-    Cubo[1].position.set(0, 0, 0);
-    Cubo[2].position.set(0, 0, 0);*/
-
-
-    Cubo[0].translateY(10);//traslada el objeto a lo largo del eje x a 10 unidades de distancia
-    Cubo[1].translateX(15);//traslada el objeto a lo largo del eje y a 15 unidades de distancia
-    Cubo[2].translateZ(20);//traslada el objeto a lo largo del eje z a 20 unidades de distancia
+    delta=10;
+    Cubo[0].translateY(delta);//traslada el objeto a lo largo del eje x a 10 unidades de distancia
+    Cubo[1].translateX(delta);//traslada el objeto a lo largo del eje y
+    Cubo[2].translateZ(delta);//traslada el objeto a lo largo del eje z
     
 
 
