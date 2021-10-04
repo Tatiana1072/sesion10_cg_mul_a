@@ -43,9 +43,10 @@ function init() {
     scene.add(axes);
 
     Cubo = [];   // Definir un array unidimensional
-    Cubo.push(cubo(4, 4, 4, 0xFFDD00, 'Physical', false));
-    Cubo.push(cubo(4, 4, 4, 0xFF0000, 'Standard', false));
-    Cubo.push(cubo(4, 4, 4, 0xFF0000, 'Phong', false));
+    dim = 4;
+    Cubo.push(cubo(dim, dim, dim, 0xFFDD00, 'Physical', false));
+    Cubo.push(cubo(dim, dim, dim, 0xFF0000, 'Standard', false));
+    Cubo.push(cubo(dim, dim, dim, 0xFF0000, 'Phong', false));
 
 
     delta=10;
